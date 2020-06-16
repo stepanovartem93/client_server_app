@@ -6,3 +6,11 @@ for word in words:
     print(word)
 
 #выскакивает ошибка SyntaxError, с указанием на букву -> b <- рядом с словом класс, значит русские слова невозможно записать в байтовом типе
+
+
+# почему не срабатывает обработка ошибок try - except?
+# for word in words:
+#     try:
+#         print(word)
+#     except SyntaxError:
+#         print(f'Слово - {word} невозможно записать в байтовом типе')
