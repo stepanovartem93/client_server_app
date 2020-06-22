@@ -1,0 +1,51 @@
+les1/bytes.py
+les1/encode_decode.py
+les1/error_handling_mechanism.py
+les1/errors_variants.py
+les1/file_system.py
+les1/modules.py
+les1/strings.py
+les1/test.txt
+les2/[веб] Методичка 2. Клиент-серверные приложения на Python. Файловое хранение данных [gb] [gu].pdf
+les2/Задачи с урока/lesson2/.DS_Store
+les2/Задачи с урока/lesson2/.idea/encodings.xml
+les2/Задачи с урока/lesson2/.idea/lesson2.iml
+les2/Задачи с урока/lesson2/.idea/misc.xml
+les2/Задачи с урока/lesson2/.idea/modules.xml
+les2/Задачи с урока/lesson2/.idea/workspace.xml
+les2/Задачи с урока/lesson2/.idea/inspectionProfiles/profiles_settings.xml
+les2/Задачи с урока/lesson2/csv/.DS_Store
+les2/Задачи с урока/lesson2/csv/csv_read.py
+les2/Задачи с урока/lesson2/csv/csv_write.py
+les2/Задачи с урока/lesson2/csv/kp_data_delimiter.csv
+les2/Задачи с урока/lesson2/csv/kp_data_dictwriter.csv
+les2/Задачи с урока/lesson2/csv/kp_data_write_1.csv
+les2/Задачи с урока/lesson2/csv/kp_data_write_2.csv
+les2/Задачи с урока/lesson2/csv/kp_data_write_3.csv
+les2/Задачи с урока/lesson2/csv/kp_data.csv
+les2/Задачи с урока/lesson2/json/data_type_change.py
+les2/Задачи с урока/lesson2/json/dict_to_json.json
+les2/Задачи с урока/lesson2/json/json_read.py
+les2/Задачи с урока/lesson2/json/json_write.py
+les2/Задачи с урока/lesson2/json/mes_example_read.json
+les2/Задачи с урока/lesson2/json/mes_example_write_1.json
+les2/Задачи с урока/lesson2/json/mes_example_write_2.json
+les2/Задачи с урока/lesson2/json/tuple_ex.json
+les2/Задачи с урока/lesson2/yaml/data_read.yaml
+les2/Задачи с урока/lesson2/yaml/data_write.yaml
+les2/Задачи с урока/lesson2/yaml/pyyaml_examples.py
+les2/Задачи с урока/lesson2/yaml/yaml_examples.yml
+les2/Пример выполнения ДЗ/.DS_Store
+les2/Пример выполнения ДЗ/task_1/data_report.csv
+les2/Пример выполнения ДЗ/task_1/info_1.txt
+les2/Пример выполнения ДЗ/task_1/info_2.txt
+les2/Пример выполнения ДЗ/task_1/info_3.txt
+les2/Пример выполнения ДЗ/task_1/main.py
+les2/Пример выполнения ДЗ/task_2/main.py
+les2/Пример выполнения ДЗ/task_2/orders.json
+les2/Пример выполнения ДЗ/task_3/file.yaml
+les2/Пример выполнения ДЗ/task_3/main.py
+les2/Студентам для решения домашнего задания/info_1.txt
+les2/Студентам для решения домашнего задания/info_2.txt
+les2/Студентам для решения домашнего задания/info_3.txt
+les2/Студентам для решения домашнего задания/orders.json
