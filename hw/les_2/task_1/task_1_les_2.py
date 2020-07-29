@@ -1,5 +1,5 @@
 """
-1. Задание на закрепление знаний по модулю CSV. Написать скрипт, осуществляющий выборку определенных данных
+Задание на закрепление знаний по модулю CSV. Написать скрипт, осуществляющий выборку определенных данных
 из файлов info_1.txt, info_2.txt, info_3.txt и формирующий новый «отчетный» файл в формате CSV.
 Для этого:
  - Создать функцию get_data(), в которой в цикле осуществляется перебор файлов с данными, их открытие и
@@ -15,9 +15,9 @@
 """
 import re, csv
 
-os_prod_list, os_name_list, os_code_list, os_type_list, main_data = [], [], [], [], []
 
 def get_data():
+    os_prod_list, os_name_list, os_code_list, os_type_list, main_data = [], [], [], [], []
     for i in range(1, 4):
         file_obj = open(f'info_{i}.txt')
         data = file_obj.read()
@@ -41,8 +41,19 @@ def get_data():
     headers = ['Изготовитель системы', 'Название ОС', 'Код продукта', 'Тип системы']
     main_data.append(headers)
 
-    data_values = [[os_prod_list], [os_name_list], [os_code_list], [os_type_list]]
-    main_data.append(data_values)
+    return main_data
 
-print(main_data)
-# print(os_prod_list, os_name_list, os_code_list, os_type_list)
+    for i in range(0, 3):
+        row_data = [os_prod_list[i], os_name_list[i], os_code_list[i], os_type_list[i]]
+        main_data.append(row_data)
+    return main_data
+
+
+def write_to_csv(out_file):
+    main_data = get_data()
+    with open(out_file, 'w', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerows(main_data)
+
+
+write_to_csv('data_report.csv')
